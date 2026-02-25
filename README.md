@@ -33,31 +33,31 @@
    - Зарегистрируйте аккаунт на `https://github.com/`. Если предпочитаете другое хранилище для репозитория, можно использовать его.  
    - Создайте публичный репозиторий, который будете использовать дальше на протяжении всего курса, желательное с названием `devops-netology`. Обязательно поставьте галочку `Initialize this repository with a README`.  
 
-![Диалог создания репозитория](https://github.com/SLOV1977/devops-netology/tree/main/img/001.png)
+![Диалог создания репозитория](https://github.com/SLOV1977/devops-netology/tree/fix/img/001.png)
 
 ![Диалог создания репозитория](img/001.png)
 
-![Созданный репозиторий](https://github.com/SLOV1977/devops-netology/tree/main/img/002.png)
+![Созданный репозиторий](https://github.com/SLOV1977/devops-netology/tree/fix/img/002.png)
 
 ![Созданный репозиторий](img/002.png)
 
    - Создайте авторизационный токен для клонирования репозитория.  
    - Склонируйте репозиторий, используя протокол HTTPS `(git clone ...)`.  
 
-![Копирование ссылки на репозиторий](https://github.com/SLOV1977/devops-netology/tree/main/img/003.png)
+![Копирование ссылки на репозиторий](https://github.com/SLOV1977/devops-netology/tree/fix/img/003.png)
 
 ![Копирование ссылки на репозиторий](img/003.png)
 
    - Перейдите в каталог с клоном репозитория `(cd devops-netology)`.  
 
-![Клонирование репозитория и переход в каталог с клоном](https://github.com/SLOV1977/devops-netology/tree/main/img/004.png)
+![Клонирование репозитория и переход в каталог с клоном](https://github.com/SLOV1977/devops-netology/tree/fix/img/004.png)
 
 ![Клонирование репозитория и переход в каталог с клоном](img/004.png)
 
    - Произведите первоначальную настройку Git, указав своё настоящее имя, чтобы нам было проще общаться, и email `(git config --global user.name и git config --global user.email johndoe@example.com)`.  
    - Выполните команду `git status` и запомните результат.  
 
-![git status](https://github.com/SLOV1977/devops-netology/tree/main/img/005.png)
+![git status](https://github.com/SLOV1977/devops-netology/tree/fix/img/005.png)
 
 ![git status](img/005.png)
 
@@ -65,21 +65,21 @@
    - Ещё раз выполните `git status` и продолжайте проверять вывод этой команды после каждого следующего шага.  
    - Теперь посмотрите изменения в файле `README.md`, выполнив команды `git diff` и `git diff --staged`.  
 
-![Перевод файла в состояние Modified](https://github.com/SLOV1977/devops-netology/tree/main/img/006.png)
+![Перевод файла в состояние Modified](https://github.com/SLOV1977/devops-netology/tree/fix/img/006.png)
 
 ![Перевод файла в состояние Modified](img/006.png)
 
    - Переведите файл в состояние `staged` (или, как говорят, просто добавьте файл в коммит) командой `git add README.md`.  
    - И ещё раз выполните команды `git diff` и `git diff --staged`. Поиграйте с изменениями и этими командами, чтобы чётко понять, что и когда они отображают.  
 
-![Перевод файла в состояние Staged](https://github.com/SLOV1977/devops-netology/tree/main/img/007.png)
+![Перевод файла в состояние Staged](https://github.com/SLOV1977/devops-netology/tree/fix/img/007.png)
 
 ![Перевод файла в состояние Staged](img/007.png)
 
    - Теперь можно сделать коммит `git commit -m 'First commit'`.  
    - И ещё раз посмотреть выводы команд `git status`, `git diff` и `git diff --staged`.
 
-![Создание первого коммита First commit](https://github.com/SLOV1977/devops-netology/tree/main/img/008.png)
+![Создание первого коммита First commit](https://github.com/SLOV1977/devops-netology/tree/fix/img/008.png)
 
 ![Создание первого коммита First commit](img/008.png)
 
@@ -105,13 +105,13 @@
    - файлы имена которых буду содержать crash.log, override.tf, .terraformrc.  
 Т.е. все вышеперечисленные файлы останутся только в локальном репозитории.
 
-![Создание файлов .gitignore и каталога terraform](https://github.com/SLOV1977/devops-netology/tree/main/img/009.png)
+![Создание файлов .gitignore и каталога terraform](https://github.com/SLOV1977/devops-netology/tree/fix/img/009.png)
 
 ![Создание файлов .gitignore и каталога terraform](img/009.png)
 
    - Закоммитьте все новые и изменённые файлы. Комментарий к коммиту должен быть `Added gitignore`.
 
-![Создание второго коммита Added gitignore](https://github.com/SLOV1977/devops-netology/tree/main/img/010.png)
+![Создание второго коммита Added gitignore](https://github.com/SLOV1977/devops-netology/tree/fix/img/010.png)
 
 ![Создание второго коммита Added gitignore](img/010.png)
 
@@ -119,26 +119,26 @@
 
    - Создайте файлы `will_be_deleted.txt` (с текстом `will_be_deleted`) и `will_be_moved.txt` (с текстом `will_be_moved`) и закоммите их с комментарием `Prepare to delete and move`.  
 
-![Создание файлов и третьего коммита Prepare to delete and move](https://github.com/SLOV1977/devops-netology/tree/main/img/011.png)
+![Создание файлов и третьего коммита Prepare to delete and move](https://github.com/SLOV1977/devops-netology/tree/fix/img/011.png)
 
 ![Создание файлов и третьего коммита Prepare to delete and move](img/011.png)
 
    - В случае необходимости обратитесь к официальной документации — здесь подробно описано, как выполнить следующие шаги.  
    - Удалите файл `will_be_deleted.txt` с диска и из репозитория.  
 
-![Удаление файла will_be_deleted.txt](https://github.com/SLOV1977/devops-netology/tree/main/img/012.png)
+![Удаление файла will_be_deleted.txt](https://github.com/SLOV1977/devops-netology/tree/fix/img/012.png)
 
 ![Удаление файла will_be_deleted.txt](img/012.png)
 
    - Переименуйте (переместите) файл `will_be_moved.txt` на диске и в репозитории, чтобы он стал называться `has_been_moved.txt`.  
 
-![Перемещение файла will_be_moved.txt с переименованием в has_been_moved.txt](https://github.com/SLOV1977/devops-netology/tree/main/img/013.png)
+![Перемещение файла will_be_moved.txt с переименованием в has_been_moved.txt](https://github.com/SLOV1977/devops-netology/tree/fix/img/013.png)
 
 ![Перемещение файла will_be_moved.txt с переименованием в has_been_moved.txt](img/013.png)
 
    - Закоммитьте результат работы с комментарием `Moved and deleted`.
 
-![Создание четвёртого коммита Moved and deleted](https://github.com/SLOV1977/devops-netology/tree/main/img/014.png)
+![Создание четвёртого коммита Moved and deleted](https://github.com/SLOV1977/devops-netology/tree/fix/img/014.png)
 
 ![Создание четвёртого коммита Moved and deleted](img/014.png)
 
@@ -152,7 +152,7 @@
        - `Moved and deleted` — после удаления и перемещения временных файлов.  
     Проверьте это, используя комманду `git log`. Подробно о формате вывода этой команды мы поговорим на следующем занятии, но посмотреть, что она отображает, можно уже сейчас.
 
-![Проверка при помощи git log](https://github.com/SLOV1977/devops-netology/tree/main/img/015.png)
+![Проверка при помощи git log](https://github.com/SLOV1977/devops-netology/tree/fix/img/015.png)
 
 ![Проверка при помощи git log](img/015.png)
 
@@ -160,7 +160,7 @@
 
 Выполните команду `git push`, если Git запросит логин и пароль — введите ваши логин и пароль от GitHub.
 
-![Отправка изменений в публичный репозиторий](https://github.com/SLOV1977/devops-netology/tree/main/img/016.png)
+![Отправка изменений в публичный репозиторий](https://github.com/SLOV1977/devops-netology/tree/fix/img/016.png)
 
 ![Отправка изменений в публичный репозиторий](img/016.png)
 
@@ -185,3 +185,270 @@
 
 
 ## Домашнее задание к занятию "`Основы Git`" - `Рахманов Александр`
+
+### Цель задания
+
+**В результате выполнения задания вы:**
+
+   - научитесь работать с Git, как с распределённой системой контроля версий;  
+   - сможете создавать и настраивать репозиторий для работы в GitHub, GitLab и Bitbucket;  
+   - попрактикуетесь работать с тегами;  
+   - поработаете с Git при помощи визуального редактора.
+
+**Чеклист готовности к домашнему заданию**
+
+   - Установлена консольная утилита для работы с Git.  
+   - Есть возможность зарегистрироваться на GitHub, GitLab.  
+   - Регистрация на Bitbucket не является обязательной.
+
+**Инструкция к заданию**
+
+   - В личном кабинете отправьте на проверку ссылки на ваши репозитории.  
+   - Любые вопросы по решению задач задавайте в разделе "Вопросы по заданию".
+
+### Задание 1. Знакомимся с GitLab и Bitbucket
+
+Из-за сложности доступа к Bitbucket в работе достаточно использовать два репозитория: GitHub и GitLab.
+
+Иногда при работе с Git-репозиториями надо настроить свой локальный репозиторий так, чтобы можно было отправлять и принимать изменения из нескольких удалённых репозиториев.
+
+Это может понадобиться при работе над проектом с открытым исходным кодом, если автор проекта не даёт права на запись в основной репозиторий.
+
+Также некоторые распределённые команды используют такой принцип работы, когда каждый разработчик имеет свой репозиторий, а в основной репозиторий пушатся только конечные результаты работы над задачами.
+GitLab
+
+Создадим аккаунт в GitLab, если у вас его ещё нет:
+
+   - GitLab. Для регистрации можно использовать аккаунт Google, GitHub и другие.  
+   - После регистрации или авторизации в GitLab создайте новый проект, нажав на ссылку `Create a projet`. Желательно назвать также, как и в GitHub — `devops-netology` и `visibility level`, выбрать `Public`.  
+
+![Создание репозитория в Gitlab](https://github.com/SLOV1977/devops-netology/tree/fix/img/017.png)
+
+![Создание репозитория в Gitlab](img/017.png)
+
+![Созданный репозиторий devops-netology](https://github.com/SLOV1977/devops-netology/tree/fix/img/018.png)
+
+![Созданный репозиторий devops-netology](img/018.png)
+
+   - Галочку Initialize repository with a README лучше не ставить, чтобы не пришлось разрешать конфликты.  
+   - Если вы зарегистрировались при помощи аккаунта в другой системе и не указали пароль, то увидите сообщение: `You won't be able to pull or push project code via HTTPS until you set a password on your account`. Тогда перейдите по ссылке из этого сообщения и задайте пароль. Если вы уже умеете пользоваться SSH-ключами, то воспользуйтесь этой возможностью (подробнее про SSH мы поговорим в следующем учебном блоке).  
+   - Перейдите на страницу созданного вами репозитория, URL будет примерно такой: `https://gitlab.com/YOUR_LOGIN/devops-netology`. Изучите предлагаемые варианты для начала работы в репозитории в секции `Command line instructions`.  
+   - Запомните вывод команды `git remote -v`.  
+
+![Первоначальный вывод git remote -v](https://github.com/SLOV1977/devops-netology/tree/fix/img/019.png)
+
+![Первоначальный вывод git remote -v](img/019.png)
+
+   - Из-за того, что это будет наш дополнительный репозиторий, ни один вариант из перечисленных в инструкции (на странице вновь созданного репозитория) нам не подходит. Поэтому добавляем этот репозиторий, как дополнительный remote, к созданному репозиторию в рамках предыдущего домашнего задания: `git remote add gitlab https://gitlab.com/YOUR_LOGIN/devops-netology.git`.  
+
+![Добавляем новый репозиторий к существующему](https://github.com/SLOV1977/devops-netology/tree/fix/img/020.png)
+
+![Добавляем новый репозиторий к существующему](img/020.png)
+
+   - Отправьте изменения в новый удалённый репозиторий `git push -u gitlab main`.  
+
+![Отправка изменений в новый репозиторий](https://github.com/SLOV1977/devops-netology/tree/fix/img/021.png)
+
+![Отправка изменений в новый репозиторий](img/021.png)
+
+   - Обратите внимание, как изменился результат работы команды `git remote -v`.
+
+Как изменить видимость репозитория в GitLab — сделать его публичным
+
+   - На верхней панели выберите «Меню» -> «Проекты» и найдите свой проект.  
+   - На левой боковой панели выберите «Настройки» -> «Основные».  
+   - Разверните раздел «Видимость» -> «Функции проекта» -> «Разрешения».  
+   - Измените видимость проекта на `Public`.  
+   - Нажмите «Сохранить изменения».
+
+#### Bitbucket* (задание со звёздочкой)
+
+Это самостоятельное задание, его выполнение необязательно.
+
+Теперь необходимо проделать всё то же самое с Bitbucket.
+
+   - Обратите внимание, что репозиторий должен быть публичным — отключите галочку `private repository` при создании репозитория.  
+   - На вопрос `Include a README?` отвечайте отказом.  
+   - В отличии от GitHub и GitLab в Bitbucket репозиторий должен принадлежать проекту, поэтому во время создания репозитория надо создать и проект, который можно назвать, например, `netology`.  
+   - Аналогично GitLab на странице вновь созданного проекта выберите `https`, чтобы получить ссылку, и добавьте этот репозиторий, как `git remote add bitbucket ....`  
+   - Обратите внимание, как изменился результат работы команды `git remote -v`.
+
+Если всё проделано правильно, то результат команды `git remote -v` должен быть следующий:
+
+```
+$ git remote -v
+bitbucket https://andreyborue@bitbucket.org/andreyborue/devops-netology.git (fetch)
+bitbucket https://andreyborue@bitbucket.org/andreyborue/devops-netology.git (push)
+gitlab	  https://gitlab.com/andrey.borue/devops-netology.git (fetch)
+gitlab	  https://gitlab.com/andrey.borue/devops-netology.git (push)
+origin	  https://github.com/andrey-borue/devops-netology.git (fetch)
+origin	  https://github.com/andrey-borue/devops-netology.git (push)
+```
+Дополнительно можете добавить удалённые репозитории по ssh, тогда результат будет примерно такой:
+
+```
+git remote -v
+bitbucket	git@bitbucket.org:andreyborue/devops-netology.git (fetch)
+bitbucket	git@bitbucket.org:andreyborue/devops-netology.git (push)
+bitbucket-https	https://andreyborue@bitbucket.org/andreyborue/devops-netology.git (fetch)
+bitbucket-https	https://andreyborue@bitbucket.org/andreyborue/devops-netology.git (push)
+gitlab	git@gitlab.com:andrey.borue/devops-netology.git (fetch)
+gitlab	git@gitlab.com:andrey.borue/devops-netology.git (push)
+gitlab-https	https://gitlab.com/andrey.borue/devops-netology.git (fetch)
+gitlab-https	https://gitlab.com/andrey.borue/devops-netology.git (push)
+origin	git@github.com:andrey-borue/devops-netology.git (fetch)
+origin	git@github.com:andrey-borue/devops-netology.git (push)
+origin-https	https://github.com/andrey-borue/devops-netology.git (fetch)
+origin-https	https://github.com/andrey-borue/devops-netology.git (push)
+```
+
+Выполните push локальной ветки main в новые репозитории.
+
+Подсказка: `git push -u gitlab main`. На этом этапе история коммитов во всех трёх репозиториях должна совпадать.
+
+### Задание 2. Теги
+
+Представьте ситуацию, когда в коде была обнаружена ошибка — надо вернуться на предыдущую версию кода, исправить её и выложить исправленный код в продакшн. Мы никуда не будем выкладывать код, но пометим некоторые коммиты тегами и создадим от них ветки.
+
+   - Создайте легковестный тег `v0.0` на HEAD-коммите и запуште его во все три добавленных на предыдущем этапе `upstream`.  
+
+![Создание легковестного тега](https://github.com/SLOV1977/devops-netology/tree/fix/img/022.png)
+
+![Создание легковестного тега](img/022.png)
+
+   - Аналогично создайте аннотированный тег `v0.1`.  
+
+![Создание аннотированного тега](https://github.com/SLOV1977/devops-netology/tree/fix/img/023.png)
+
+![Создание аннотированного тега](img/023.png)
+
+   - Перейдите на страницу просмотра тегов в GitHab (и в других репозиториях) и посмотрите, чем отличаются созданные теги.  
+      - в GitHub — `https://github.com/YOUR_ACCOUNT/devops-netology/releases`;  
+
+![Теги на GitHub](https://github.com/SLOV1977/devops-netology/tree/fix/img/024.png)
+
+![Теги на GitHub](img/024.png)
+
+![Теги на GitHub](https://github.com/SLOV1977/devops-netology/tree/fix/img/025.png)
+
+![Теги на GitHub](img/025.png)
+
+      - в GitLab — `https://gitlab.com/YOUR_ACCOUNT/devops-netology/-/tags`;  
+
+![Теги на GitLab](https://github.com/SLOV1977/devops-netology/tree/fix/img/026.png)
+
+![Теги на GitLab](img/026.png)
+
+![Теги на GitLab](https://github.com/SLOV1977/devops-netology/tree/fix/img/027.png)
+
+![Теги на GitLab](img/027.png)
+
+      - в Bitbucket — список тегов расположен в выпадающем меню веток на отдельной вкладке.
+
+### Задание 3. Ветки
+
+Давайте посмотрим, как будет выглядеть история коммитов при создании веток.
+
+   - Переключитесь обратно на ветку `main`, которая должна быть связана с веткой `main` репозитория на github.  
+
+![Ветка origin/main](https://github.com/SLOV1977/devops-netology/tree/fix/img/028.png)
+
+![Ветка origin/main](img/028.png)
+
+   - Посмотрите лог коммитов и найдите хеш коммита с названием `Prepare to delete and move`, который был создан в пределах предыдущего домашнего задания.  
+   - Выполните `git checkout` по хешу найденного коммита.  
+
+![Переход к коммиту Prepare to delete and move](https://github.com/SLOV1977/devops-netology/tree/fix/img/029.png)
+
+![Переход к коммиту Prepare to delete and move](img/029.png)
+
+   - Создайте новую ветку `fix`, базируясь на этом коммите `git switch -c fix`.  
+
+![Новая ветка fix](https://github.com/SLOV1977/devops-netology/tree/fix/img/030.png)
+
+![Новая ветка fix](img/030.png)
+
+   - Отправьте новую ветку в репозиторий на GitHub `git push -u origin fix`.  
+
+![Отправка fix на GitHub](https://github.com/SLOV1977/devops-netology/tree/fix/img/031.png)
+
+![Отправка fix на GitHub](img/031.png)
+
+   - Посмотрите, как визуально выглядит ваша схема коммитов: `https://github.com/YOUR_ACCOUNT/devops-netology/network`.  
+
+![Первоначальный вывод git log](https://github.com/SLOV1977/devops-netology/tree/fix/img/032.png)
+
+![Первоначальный вывод git log](img/032.png)
+
+   - Теперь измените содержание файла `README.md`, добавив новую строчку.  
+
+![Изменение файла README.md](https://github.com/SLOV1977/devops-netology/tree/fix/img/033.png)
+
+![Изменение файла README.md](img/033.png)
+
+   - Отправьте изменения в репозиторий и посмотрите, как изменится схема на странице `https://github.com/YOUR_ACCOUNT/devops-netology/network` и как изменится вывод команды `git log`.
+
+![Отправка изменений в репозиторий](https://github.com/SLOV1977/devops-netology/tree/fix/img/034.png)
+
+![Отправка изменений в репозиторий](img/034.png)
+
+![Схема веток в репозитории](https://github.com/SLOV1977/devops-netology/tree/fix/img/035.png)
+
+![Схема веток в репозитории](img/035.png)
+
+![Вывод git log после изменения файла](https://github.com/SLOV1977/devops-netology/tree/fix/img/036.png)
+
+![Вывод git log после изменения файла](img/036.png)
+
+### Задание 4. Упрощаем себе жизнь
+
+Попробуем поработь с Git при помощи визуального редактора.
+
+   - В используемой `IDE PyCharm` откройте визуальный редактор работы с Git, находящийся в меню `View -> Tool Windows -> Git`.  
+   - Измените какой-нибудь файл, и он сразу появится на вкладке `Local Changes`, отсюда можно выполнить коммит, нажав на кнопку внизу этого диалога.  
+   - Элементы управления для работы с Git будут выглядеть примерно так:  
+
+![Создание первого коммита в PyCharm](https://github.com/SLOV1977/devops-netology/tree/fix/img/037.png)
+
+![Создание первого коммита в PyCharm](img/037.png)
+
+![Создание первого коммита в PyCharm](https://github.com/SLOV1977/devops-netology/tree/fix/img/038.png)
+
+![Создание первого коммита в PyCharm](img/038.png)
+
+   - Работа с гитом  
+   - Попробуйте выполнить пару коммитов, используя IDE.
+
+![Создание второго коммита в PyCharm](https://github.com/SLOV1977/devops-netology/tree/fix/img/039.png)
+
+![Создание второго коммита в PyCharm](img/039.png)
+
+![Создание второго коммита в PyCharm](https://github.com/SLOV1977/devops-netology/tree/fix/img/040.png)
+
+![Создание второго коммита в PyCharm](img/040.png)
+
+Если вверху экрана выбрать свою операционную систему, можно посмотреть горячие клавиши для работы с Git. Подробней о визуальном интерфейсе мы расскажем на одной из следующих лекций.
+
+В качестве результата работы по всем заданиям приложите ссылки на ваши репозитории в GitHub, GitLab и Bitbucket.
+
+### Правила приёма домашнего задания
+
+В личном кабинете отправлены ссылки на ваши репозитории.
+
+### Критерии оценки
+
+#### Зачёт:
+
+   - выполнены все задания;  
+   - ответы даны в развёрнутой форме;  
+   - приложены соответствующие скриншоты и файлы проекта;  
+   - в выполненных заданиях нет противоречий и нарушения логики.
+
+#### На доработку:
+
+   - задание выполнено частично или не выполнено вообще;  
+   - в логике выполнения заданий есть противоречия и существенные недостатки.
+
+Обязательными являются задачи без звёздочки. Их выполнение необходимо для получения зачёта и диплома о профессиональной переподготовке.
+
+Задачи со звёздочкой (*) являются дополнительными или задачами повышенной сложности. Они необязательные, но их выполнение поможет лучше разобраться в теме.
